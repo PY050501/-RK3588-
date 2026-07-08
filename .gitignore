@@ -1,0 +1,32 @@
+# Keil MDK build output
+Obj/
+Listings/
+*.o
+*.crf
+*.d
+*.dep
+*.axf
+*.htm
+*.lnp
+*.build_log.htm
+*.map
+*.lst
+*.sct
+*.scvd
+*.iex
+*.bin
+*.hex
+
+# Keil user-specific settings
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dbgconf
+
+# DebugConfig generated files
+DebugConfig/
+
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+.DS_Store
