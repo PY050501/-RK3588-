@@ -72,3 +72,7 @@ isoc 带宽冲突导致第二路 read() 失败)。
 
 - [全国大学生嵌入式芯片与系统设计竞赛演示视频](https://github.com/PY050501/-RK3588-/releases/download/v1.0-video/embedded-contest-demo-video.zip)
 - Release 页面:https://github.com/PY050501/-RK3588-/releases/tag/v1.0-video
+
+## 项目报告
+
+- [嵌入式设计竞赛项目报告 (PDF)](docs/嵌入式设计竞赛.pdf)
