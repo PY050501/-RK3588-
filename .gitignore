@@ -1,9 +1,9 @@
-# 环境变量 / 密钥, 绝不提交
+# ===== 环境变量 / 密钥, 绝不提交 =====
 .env
 *.env
 !.env.example
 
-# Python
+# ===== Python (RK3588 上位机) =====
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -15,7 +15,36 @@ models/
 *.rknn
 *.pt
 
-# 运行时产物
+# ===== Keil MDK build output (STM32 下位机) =====
+Obj/
+Listings/
+*.o
+*.crf
+*.d
+*.dep
+*.axf
+*.htm
+*.lnp
+*.build_log.htm
+*.map
+*.lst
+*.sct
+*.scvd
+*.iex
+*.bin
+*.hex
+
+# Keil user-specific settings
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dbgconf
+DebugConfig/
+
+# ===== 运行时产物 / OS 垃圾 =====
 *.log
 *.jpg
 *.mp4
+Thumbs.db
+Desktop.ini
+.DS_Store
