@@ -63,3 +63,12 @@ isoc 带宽冲突导致第二路 read() 失败)。
 - I2C / AT24Cxx:参数存储
 
 用 Keil MDK 打开 `Template.uvprojx` 编译。
+
+---
+
+## 演示视频
+
+竞赛演示视频(266MB)已上传至 Release,点击下载:
+
+- [全国大学生嵌入式芯片与系统设计竞赛演示视频](https://github.com/PY050501/-RK3588-/releases/download/v1.0-video/embedded-contest-demo-video.zip)
+- Release 页面:https://github.com/PY050501/-RK3588-/releases/tag/v1.0-video
